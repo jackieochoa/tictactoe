@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+   <title>Tic Tac Toe</title>
+   <meta charset="UTF-8">
+   <meta name="description" content="Play a fun game of tic tac toe!">
+   <meta name="author" content="Jackie Ochoa">
+   <script type="text/javascript" src="tictactoe.js"></script>
+    <link rel="stylesheet" href="tictactoe.css">
+</head> 
+
+<body>
+
+    <h1>TIC-TAC-TOE!</h1>
+
+    <table border="1">
+        <tr>
+            <td><button id="AA" onclick="changeButton('AA')"></button></td>
+            <td><button id="BA" onclick="changeButton('BA')"></button></td>
+            <td><button id="CA" onclick="changeButton('CA')"></button></td>
+        </tr>
+
+        <tr>
+            <td><button id="AB" onclick="changeButton('AB')"></button></td>
+            <td><button id="BB" onclick="changeButton('BB')"></button></td>
+            <td><button id="CB" onclick="changeButton('CB')"></button></td>
+        </tr>
+
+        <tr>
+            <td><button id="AC" onclick="changeButton('AC')"></button></td>
+            <td><button id="BC" onclick="changeButton('BC')"></button></td>
+            <td><button id="CC" onclick="changeButton('CC')"></button></td>
+        </tr>
+    </table>
+
+    <button class = "reset" id="reset" onclick="resetBoard()">Replay</button>
+
+    <hr>
+
+    <h1>SCOREBOARD</h1>
+    <table border="1">
+        <tr>
+            <th>X Wins</th>
+            <th>Y Wins</th>
+        </tr>
+
+        <tr>
+            <td class = "score" id="xWins">0</td>
+            <td class = "score" id="yWins">0</td>
+        </tr>
+    </table>
+
+    
+
+</body>
+</html>

@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(to bottom, #FFD1DC, #b8d8be);
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+    display: block;
+}
+
+td{
+    height: 100px;
+    width: 100px;
+}
+
+.score{
+    height: 50px;
+    width: 70px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    height: 80px;
+    width: 80px;
+    background-color: transparent;
+}
+
+.reset{
+    height:50px;
+    width: 80px;
+    margin-top: 30px;
+}
+
+hr{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
